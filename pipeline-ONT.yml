@@ -1,0 +1,16 @@
+name: pipeline-ont
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+  
+dependencies:
+- NanoPlot=1.44.1
+- Porechop=0.2.4
+- Filtlong=0.2.1
+- Minimap2=2.29-r1283
+- Samtools=1.21
+- Medaka=2.0.1
+- Nextclade CLI=3.13.0
+
+
