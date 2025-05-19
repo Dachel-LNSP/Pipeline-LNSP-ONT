@@ -23,6 +23,14 @@ Installe les outils suivants dans ton environnement (`conda`, `apt`, ou `docker`
 - Medaka
 - Nextclade CLI
 
+## Création d'un environnement pipeline-ONT pour éviter tout type de conflis 
+
+conda create -n pipeline-ONT
+
+conda activate pipeline-ONT
+
+conda env create -f pipeline-ONT.yml
+
 ## Utilisation
 Exécuter le script dans votre dossier d'analyses cotenant le script. Vous pouvez rendre ce script exécutable
 
