@@ -25,15 +25,21 @@ Installe les outils suivants dans ton environnement (`conda`, `apt`, ou `docker`
 
 ## Création d'un environnement pipeline-ONT pour éviter tout type de conflis 
 
+
+```bash
 conda create -n pipeline-ONT
-
 conda activate pipeline-ONT
-
 conda env create -f pipeline-ONT.yml
+
+```
 
 ## Utilisation
 Exécuter le script dans votre dossier d'analyses cotenant le script. Vous pouvez rendre ce script exécutable
+```bash
+chmod +x Pipeline_LNSP-ONT.sh
 
+./Pipeline-ONT.sh
+```
 
 ```bash
 bash Pipeline_LNSP-ONT.sh
